@@ -31,4 +31,4 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: Deploying using surge
-      run: surge E:/Adnan/StudyPIAIC/Resume_repository_here/Resume_Adnan_IT/ adnanatbit.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./ adnanatbit.surge.sh --token ${{ secrets.SURGE_TOKEN }}
